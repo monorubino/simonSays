@@ -142,7 +142,7 @@ class Game
   }
   lostTheGame()
   {
-    swal('WRONG!','You lose =(','error')
+    swal('WRONG!','You lost =(','error')
       .then(() => {
         this.deleteClicks()
         this.beginGame()
